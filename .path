@@ -1,1 +1,4 @@
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:~/.local/bin/pipsi:$PATH"
+
+# Pipsi (https://github.com/mitsuhiko/pipsi)
+export PATH="/Users/shawnr/.local/bin:$PATH"
