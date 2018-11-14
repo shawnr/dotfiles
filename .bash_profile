@@ -1,6 +1,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
+# Virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs;
+source /Users/shawnr/Library/Python/2.7/bin/virtualenvwrapper.sh;
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
