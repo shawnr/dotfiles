@@ -3,7 +3,7 @@ export PATH="$HOME/bin:$PATH";
 
 # Virtualenvwrapper
 export WORKON_HOME=$HOME/.virtualenvs;
-source /Users/shawnr/Library/Python/2.7/bin/virtualenvwrapper.sh;
+source /usr/local/bin/virtualenvwrapper.sh;
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -50,3 +50,6 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# Reset QuickLook thumbnail cache
+qlmanage -r cache;
