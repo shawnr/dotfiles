@@ -2,6 +2,13 @@
 
 # ~/.macos — https://mths.be/macos
 
+################################################
+# Extra: Custom setup steps for Web Dev        #
+################################################
+curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
+
+
+##############################################################################
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'

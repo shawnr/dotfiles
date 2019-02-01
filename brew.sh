@@ -98,6 +98,8 @@ brew install zopfli
 # Install Quick Look Plugins per https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize quicklook-csv webpquicklook suspicious-package quicklookase qlvideo betterzip
 
+# Install useful dev tools
+brew install pyenv
 
 # Remove outdated versions from the cellar.
 brew cleanup
